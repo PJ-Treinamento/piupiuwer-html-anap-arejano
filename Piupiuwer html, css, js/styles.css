@@ -1,0 +1,326 @@
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    background-color:#2D3142;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* login e cadastro */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color:#4F5D75;
+    border-radius: 48px;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.tituloelogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.infoaqui{
+    background-color:#BFC0C0;
+    border-radius: 16px;
+    width: 400px;
+    height: 32px;
+}
+
+.info{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.caixagrande{
+    margin-top: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+.titulo{
+    margin: 8px;
+    font-size: 40px;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+}
+
+.botaodestaque{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    height: 32px;
+    width: 96px;
+    background-color: #EF8354;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.botaopadrao{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    height: 32px;
+    width: 96px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border-color: #EF8354;
+    color: #EF8354;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    background-color:#EF8354;
+    width: 100%;
+    height: 96px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.perfilpequeno{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.fotoperfil{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.nomeeuser{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.nome{
+    margin: 4px;
+}
+
+.user{
+    margin: 4px;
+}
+
+.iconesheader{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.iconeperfil{
+    height: 40px;
+    width: 40px;
+    margin: 16px;
+}
+
+.iconepesquisar{
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+
+/* post e pius */
+
+.postarepius{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.caixadopost{
+    background-color: #BFC0C0;
+    margin: 24px;
+    height: 112px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.fotodeperfil{
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    margin: 8px;
+}
+
+.piuS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    width: 80%;
+}
+
+.piu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 16px;
+}
+
+.caixadopiu{
+    background-color: #BFC0C0;
+    border-radius: 32px;
+    width: 90%;
+    margin: 8px;
+}
+
+.textodopiu{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.textodamensagem{
+    word-wrap: break-word;
+}
+
+.imagemenviar{
+    height: 32px;
+    width: 32px;
+}
+
+.enviar{
+    border: 0px;
+    outline: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    background-color: #BFC0C0;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.postarepius form.essetremestranho textarea{
+    resize: none;
+    outline: none;
+    border: 0px;
+    padding: 16px;
+    background-color: #BFC0C0;
+    height: 48px;
+    border-radius: 16px;
+}
+
+div.postarepius form.essetremestranho{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixadopost{
+    background-color: #BFC0C0;
+    margin: 24px;
+    height: 112px;
+    width: 80%;
+    border-radius: 16px;
+}
+
+.botaoContadoreAviso{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+}
+
+.botaoLike{
+    border: 0px;
+    outline: none;
+    border-radius: 32px;
+    background-color: #BFC0C0;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.iconelike{
+    padding: 16px;
+}
+
+.contadorLike{
+    padding: 8px;
+}
+
+.interacoes{
+    display: flex
+}
+
+.botaoDeletar{
+    outline: none;
+    border-radius: 16px;
+    background-color: #BFC0C0;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    border: 0px;
+}
+
+/* pesquisa */
+
+.caixadapesquisa{
+    background-color: #BFC0C0;
+    margin: 24px;
+    height: 64px;
+    width: 80%;
+    border-radius: 16px;
+}
+
+.pesquisa{
+    resize: none;
+    outline: none;
+    border: 0px;
+    padding: 16px;
+    background-color: #BFC0C0;
+    width: max-content;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.pesquisaepius{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.voltar{
+    width: 48px;
+    height: 48px;
+}
+
+.iconefeed{
+    height: 32px;
+    width: 32px;
+    margin: 8px;
+}

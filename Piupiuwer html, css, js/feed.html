@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Piupiuwer</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="perfilpequeno">
+            <img class="fotoperfil" src="fotoperfil.jpeg">
+            <div class="nomeeuser">
+                <h4 class="nome">Ana Paula</h4>
+                <h5 class="user" >ap_arejano</h5>
+            </div>
+        </div>
+       
+        <div class="iconesheader">
+            <div>
+                <a href="perfil.html">
+                    <img class="iconeperfil" src="iconeperfil.png">
+                </a>
+            </div>
+            <div>
+                <a href="pesquisar.html">
+                    <img class="iconepesquisar" src="iconepesquisar.png">
+                </a>
+            </div>
+            <div class="logoheader">
+                <img class="logo" src="passaro.png">
+            </div>
+        </div>
+    </div>
+       
+    <div class="postarepius">
+        <div class="caixadopost">
+            <form class="essetremestranho">
+                <textarea class="novopost" placeholder="Piu piu piu!" onkeyup="contadorFuncional()" spellcheck="false"></textarea>
+            </form>
+            <div class="botaoContadoreAviso">
+                <button class="enviar" action = "submit" onclick="novoPiu()"><img class="imagemenviar" src="enviar.png"></button>
+                <p id="contador">0/140</p>
+                <p id="aviso"></p>
+            </div>
+        </div>
+        <div class="piuS"></div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="novoPost.js"></script>
+    
+</body>
+</html>
+
